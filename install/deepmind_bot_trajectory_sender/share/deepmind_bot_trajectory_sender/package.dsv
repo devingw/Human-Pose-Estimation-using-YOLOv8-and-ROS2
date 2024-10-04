@@ -1,0 +1,4 @@
+source;share/deepmind_bot_trajectory_sender/local_setup.bash
+source;share/deepmind_bot_trajectory_sender/local_setup.dsv
+source;share/deepmind_bot_trajectory_sender/local_setup.sh
+source;share/deepmind_bot_trajectory_sender/local_setup.zsh

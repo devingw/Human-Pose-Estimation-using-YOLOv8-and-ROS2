@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from custom_msgs/msg/DetectedSurfaces.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point.idl"
+
+module custom_msgs {
+  module msg {
+    struct DetectedSurfaces {
+      uint32 surface_id;
+
+      geometry_msgs::msg::Point position;
+
+      float height;
+
+      float width;
+    };
+  };
+};

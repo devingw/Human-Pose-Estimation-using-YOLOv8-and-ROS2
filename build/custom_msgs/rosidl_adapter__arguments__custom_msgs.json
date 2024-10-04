@@ -1,0 +1,13 @@
+{
+  "package_name": "custom_msgs",
+  "non_idl_tuples": [
+    "/home/user/ros2_ws/src/custom_msgs:msg/DetectedSurfaces.msg",
+    "/home/user/ros2_ws/src/custom_msgs:msg/DetectedObjects.msg",
+    "/home/user/ros2_ws/src/custom_msgs:msg/InferenceResult.msg",
+    "/home/user/ros2_ws/src/custom_msgs:msg/Yolov8Inference.msg",
+    "/home/user/ros2_ws/src/custom_msgs:msg/PoseKeypoint.msg",
+    "/home/user/ros2_ws/src/custom_msgs:msg/PoseResult.msg",
+    "/home/user/ros2_ws/src/custom_msgs:msg/SegmentationResult.msg",
+    "/home/user/ros2_ws/src/custom_msgs:msg/Yolov8Segmentation.msg"
+  ]
+}

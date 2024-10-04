@@ -1,0 +1,16 @@
+msg/DetectedObjects.idl
+msg/DetectedObjects.msg
+msg/DetectedSurfaces.idl
+msg/DetectedSurfaces.msg
+msg/InferenceResult.idl
+msg/InferenceResult.msg
+msg/PoseKeypoint.idl
+msg/PoseKeypoint.msg
+msg/PoseResult.idl
+msg/PoseResult.msg
+msg/SegmentationResult.idl
+msg/SegmentationResult.msg
+msg/Yolov8Inference.idl
+msg/Yolov8Inference.msg
+msg/Yolov8Segmentation.idl
+msg/Yolov8Segmentation.msg

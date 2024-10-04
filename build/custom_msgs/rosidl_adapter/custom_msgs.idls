@@ -1,0 +1,8 @@
+/home/user/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/DetectedSurfaces.idl
+/home/user/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/DetectedObjects.idl
+/home/user/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/InferenceResult.idl
+/home/user/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/Yolov8Inference.idl
+/home/user/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/PoseKeypoint.idl
+/home/user/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/PoseResult.idl
+/home/user/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/SegmentationResult.idl
+/home/user/ros2_ws/build/custom_msgs/rosidl_adapter/custom_msgs:msg/Yolov8Segmentation.idl

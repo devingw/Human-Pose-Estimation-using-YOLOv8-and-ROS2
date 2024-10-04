@@ -1,0 +1,9 @@
+/home/user/ros2_ws/build/deepmind_bot_trajectory_sender/CMakeFiles/uninstall.dir
+/home/user/ros2_ws/build/deepmind_bot_trajectory_sender/CMakeFiles/deepmind_bot_trajectory_sender_uninstall.dir
+/home/user/ros2_ws/build/deepmind_bot_trajectory_sender/CMakeFiles/test.dir
+/home/user/ros2_ws/build/deepmind_bot_trajectory_sender/CMakeFiles/edit_cache.dir
+/home/user/ros2_ws/build/deepmind_bot_trajectory_sender/CMakeFiles/rebuild_cache.dir
+/home/user/ros2_ws/build/deepmind_bot_trajectory_sender/CMakeFiles/list_install_components.dir
+/home/user/ros2_ws/build/deepmind_bot_trajectory_sender/CMakeFiles/install.dir
+/home/user/ros2_ws/build/deepmind_bot_trajectory_sender/CMakeFiles/install/local.dir
+/home/user/ros2_ws/build/deepmind_bot_trajectory_sender/CMakeFiles/install/strip.dir

@@ -1,0 +1,24 @@
+[2.785s] Invoking command in '/home/user/ros2_ws/src/advanced_perception': PYTHONPATH=/home/user/ros2_ws/build/advanced_perception/prefix_override:/home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/advanced_perception build --build-base /home/user/ros2_ws/build/advanced_perception/build install --record /home/user/ros2_ws/build/advanced_perception/install.log --single-version-externally-managed install_data
+[3.811s] running egg_info
+[3.812s] writing ../../build/advanced_perception/advanced_perception.egg-info/PKG-INFO
+[3.812s] writing dependency_links to ../../build/advanced_perception/advanced_perception.egg-info/dependency_links.txt
+[3.812s] writing entry points to ../../build/advanced_perception/advanced_perception.egg-info/entry_points.txt
+[3.812s] writing requirements to ../../build/advanced_perception/advanced_perception.egg-info/requires.txt
+[3.813s] writing top-level names to ../../build/advanced_perception/advanced_perception.egg-info/top_level.txt
+[3.815s] reading manifest file '../../build/advanced_perception/advanced_perception.egg-info/SOURCES.txt'
+[3.816s] writing manifest file '../../build/advanced_perception/advanced_perception.egg-info/SOURCES.txt'
+[3.817s] running build
+[3.817s] running build_py
+[3.817s] copying advanced_perception/pose_estimation.py -> /home/user/ros2_ws/build/advanced_perception/build/lib/advanced_perception
+[3.817s] running install
+[3.817s] running install_lib
+[3.818s] copying /home/user/ros2_ws/build/advanced_perception/build/lib/advanced_perception/pose_estimation.py -> /home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages/advanced_perception
+[3.820s] byte-compiling /home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages/advanced_perception/pose_estimation.py to pose_estimation.cpython-310.pyc
+[3.821s] running install_data
+[3.821s] running install_egg_info
+[3.824s] removing '/home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages/advanced_perception-0.0.0-py3.10.egg-info' (and everything under it)
+[3.824s] Copying ../../build/advanced_perception/advanced_perception.egg-info to /home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages/advanced_perception-0.0.0-py3.10.egg-info
+[3.826s] running install_scripts
+[3.984s] Installing pose_estimation_node script to /home/user/ros2_ws/install/advanced_perception/lib/advanced_perception
+[3.985s] writing list of installed files to '/home/user/ros2_ws/build/advanced_perception/install.log'
+[4.016s] Invoked command in '/home/user/ros2_ws/src/advanced_perception' returned '0': PYTHONPATH=/home/user/ros2_ws/build/advanced_perception/prefix_override:/home/user/ros2_ws/install/advanced_perception/lib/python3.10/site-packages:${PYTHONPATH} _=/usr/bin/env /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/advanced_perception build --build-base /home/user/ros2_ws/build/advanced_perception/build install --record /home/user/ros2_ws/build/advanced_perception/install.log --single-version-externally-managed install_data

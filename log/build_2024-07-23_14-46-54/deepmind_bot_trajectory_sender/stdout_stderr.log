@@ -1,0 +1,25 @@
+-- Install configuration: ""
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/scripts
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/scripts/send_trajectory_head.py
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/scripts/send_trajectory_arm.py
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/scripts/move_head.py
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/scripts/send_trajectory_gripper.py
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/lib/deepmind_bot_trajectory_sender/send_trajectory_arm.py
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/lib/deepmind_bot_trajectory_sender/send_trajectory_head.py
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/lib/deepmind_bot_trajectory_sender/send_trajectory_gripper.py
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/lib/deepmind_bot_trajectory_sender/move_head.py
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/ament_index/resource_index/package_run_dependencies/deepmind_bot_trajectory_sender
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/ament_index/resource_index/parent_prefix_path/deepmind_bot_trajectory_sender
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/environment/ament_prefix_path.sh
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/environment/path.sh
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/environment/path.dsv
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/local_setup.bash
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/local_setup.sh
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/local_setup.zsh
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/local_setup.dsv
+-- Installing: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.dsv
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/ament_index/resource_index/packages/deepmind_bot_trajectory_sender
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/cmake/deepmind_bot_trajectory_senderConfig.cmake
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/cmake/deepmind_bot_trajectory_senderConfig-version.cmake
+-- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.xml

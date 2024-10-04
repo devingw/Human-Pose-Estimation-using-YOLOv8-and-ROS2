@@ -1,0 +1,48 @@
+[0.065s] Invoking command in '/home/user/ros2_ws/build/deepmind_bot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/deepmind_bot_navigation -- -j8 -l8
+[0.245s] Invoked command in '/home/user/ros2_ws/build/deepmind_bot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/deepmind_bot_navigation -- -j8 -l8
+[0.477s] Invoking command in '/home/user/ros2_ws/build/deepmind_bot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/deepmind_bot_navigation
+[0.477s] -- Install configuration: ""
+[0.478s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//launch
+[0.478s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//launch/localization.launch.py
+[0.478s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//launch/cartographer.launch.py
+[0.478s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//launch/pathplanner.launch.py
+[0.478s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//launch/rviz.launch.xml
+[0.478s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//launch/start_rviz.launch.py
+[0.478s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//launch/nav2_map_server.launch.py
+[0.478s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//launch/main.launch.xml
+[0.478s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//config
+[0.478s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//config/controller.yaml
+[0.479s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//config/recovery.yaml
+[0.479s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//config/planner_server.yaml
+[0.479s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//config/bt_navigator.yaml
+[0.479s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//config/amcl_config.yaml
+[0.479s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//config/filters.yaml
+[0.480s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//config/behavior.xml
+[0.480s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//config/cartographer.lua
+[0.480s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//rviz
+[0.480s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//rviz/navigation.rviz
+[0.480s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//rviz/mapping.rviz
+[0.480s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//rviz/localization.rviz
+[0.480s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//maps
+[0.480s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//maps/modern_flat.png
+[0.480s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//maps/map_keepout.pgm
+[0.480s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//maps/modern_flat.pgm
+[0.480s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//maps/raw_modern_flat.pgm
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//maps/map_keepout.yaml
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation//maps/modern_flat.yaml
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/ament_index/resource_index/package_run_dependencies/deepmind_bot_navigation
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/ament_index/resource_index/parent_prefix_path/deepmind_bot_navigation
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/environment/ament_prefix_path.sh
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/environment/ament_prefix_path.dsv
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/environment/path.sh
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/environment/path.dsv
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/local_setup.bash
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/local_setup.sh
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/local_setup.zsh
+[0.481s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/local_setup.dsv
+[0.481s] -- Installing: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.dsv
+[0.482s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/ament_index/resource_index/packages/deepmind_bot_navigation
+[0.482s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/cmake/deepmind_bot_navigationConfig.cmake
+[0.482s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/cmake/deepmind_bot_navigationConfig-version.cmake
+[0.482s] -- Up-to-date: /home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.xml
+[0.490s] Invoked command in '/home/user/ros2_ws/build/deepmind_bot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/deepmind_bot_navigation

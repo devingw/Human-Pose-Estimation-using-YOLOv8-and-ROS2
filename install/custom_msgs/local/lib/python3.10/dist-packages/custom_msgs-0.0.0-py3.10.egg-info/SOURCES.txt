@@ -1,0 +1,15 @@
+setup.py
+custom_msgs/__init__.py
+custom_msgs.egg-info/PKG-INFO
+custom_msgs.egg-info/SOURCES.txt
+custom_msgs.egg-info/dependency_links.txt
+custom_msgs.egg-info/top_level.txt
+custom_msgs/msg/__init__.py
+custom_msgs/msg/_detected_objects.py
+custom_msgs/msg/_detected_surfaces.py
+custom_msgs/msg/_inference_result.py
+custom_msgs/msg/_pose_keypoint.py
+custom_msgs/msg/_pose_result.py
+custom_msgs/msg/_segmentation_result.py
+custom_msgs/msg/_yolov8_inference.py
+custom_msgs/msg/_yolov8_segmentation.py

@@ -1,0 +1,462 @@
+[0.173s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.173s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, lookup_in_workspace=False, cargo_args=None, clean_build=False, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ff4df4fe9e0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ff4df4fde70>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ff4df4fde70>>, mixin_verb=('build',))
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.469s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.469s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user/ros2_ws'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ament_cargo']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ament_cargo'
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.470s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cargo', 'cmake', 'python']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cargo'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.485s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.486s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ament_cargo']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ament_cargo'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cargo', 'cmake', 'python']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cargo'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ignore_ament_install'
+[0.488s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_pkg']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_pkg'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['colcon_meta']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'colcon_meta'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ament_cargo']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ament_cargo'
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extensions ['ros']
+[0.489s] Level 1:colcon.colcon_core.package_identification:_identify(src/custom_msgs) by extension 'ros'
+[0.504s] DEBUG:colcon.colcon_core.package_identification:Package 'src/custom_msgs' with type 'ros.ament_cmake' and name 'custom_msgs'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extensions ['ignore', 'ignore_ament_install']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extension 'ignore'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extension 'ignore_ament_install'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extensions ['colcon_pkg']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extension 'colcon_pkg'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extensions ['colcon_meta']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extension 'colcon_meta'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extensions ['ament_cargo']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extension 'ament_cargo'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extensions ['ros']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extension 'ros'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extensions ['cargo', 'cmake', 'python']
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extension 'cargo'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extension 'cmake'
+[0.505s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extension 'python'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extensions ['python_setup_py']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot) by extension 'python_setup_py'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_description) by extension 'ignore'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_description) by extension 'ignore_ament_install'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_description) by extensions ['colcon_pkg']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_description) by extension 'colcon_pkg'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_description) by extensions ['colcon_meta']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_description) by extension 'colcon_meta'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_description) by extensions ['ament_cargo']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_description) by extension 'ament_cargo'
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_description) by extensions ['ros']
+[0.506s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_description) by extension 'ros'
+[0.507s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deepmind_bot/deepmind_bot_description' with type 'ros.ament_cmake' and name 'deepmind_bot_description'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_gazebo) by extension 'ignore'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_gazebo) by extension 'ignore_ament_install'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_gazebo) by extensions ['colcon_pkg']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_gazebo) by extension 'colcon_pkg'
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_gazebo) by extensions ['colcon_meta']
+[0.507s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_gazebo) by extension 'colcon_meta'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_gazebo) by extensions ['ament_cargo']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_gazebo) by extension 'ament_cargo'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_gazebo) by extensions ['ros']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_gazebo) by extension 'ros'
+[0.508s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deepmind_bot/deepmind_bot_gazebo' with type 'ros.ament_cmake' and name 'deepmind_bot_gazebo'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_navigation) by extension 'ignore'
+[0.508s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_navigation) by extension 'ignore_ament_install'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_navigation) by extensions ['colcon_pkg']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_navigation) by extension 'colcon_pkg'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_navigation) by extensions ['colcon_meta']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_navigation) by extension 'colcon_meta'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_navigation) by extensions ['ament_cargo']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_navigation) by extension 'ament_cargo'
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_navigation) by extensions ['ros']
+[0.509s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_navigation) by extension 'ros'
+[0.510s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deepmind_bot/deepmind_bot_navigation' with type 'ros.ament_cmake' and name 'deepmind_bot_navigation'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_trajectory_sender) by extensions ['ignore', 'ignore_ament_install']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_trajectory_sender) by extension 'ignore'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_trajectory_sender) by extension 'ignore_ament_install'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_trajectory_sender) by extensions ['colcon_pkg']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_trajectory_sender) by extension 'colcon_pkg'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_trajectory_sender) by extensions ['colcon_meta']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_trajectory_sender) by extension 'colcon_meta'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_trajectory_sender) by extensions ['ament_cargo']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_trajectory_sender) by extension 'ament_cargo'
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_trajectory_sender) by extensions ['ros']
+[0.510s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/deepmind_bot_trajectory_sender) by extension 'ros'
+[0.511s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deepmind_bot/deepmind_bot_trajectory_sender' with type 'ros.ament_cmake' and name 'deepmind_bot_trajectory_sender'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extension 'ignore'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extension 'ignore_ament_install'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extensions ['colcon_pkg']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extension 'colcon_pkg'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extensions ['colcon_meta']
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extension 'colcon_meta'
+[0.511s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extensions ['ament_cargo']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extension 'ament_cargo'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extensions ['ros']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extension 'ros'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extensions ['cargo', 'cmake', 'python']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extension 'cargo'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extension 'cmake'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extension 'python'
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extensions ['python_setup_py']
+[0.512s] Level 1:colcon.colcon_core.package_identification:_identify(src/deepmind_bot/scripts) by extension 'python_setup_py'
+[0.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.512s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'lookup_in_workspace' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cargo_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'clean_build' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.541s] Level 5:colcon.colcon_core.verb:set package 'custom_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.542s] DEBUG:colcon.colcon_core.verb:Building package 'custom_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/custom_msgs', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/custom_msgs', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/custom_msgs', 'symlink_install': False, 'test_result_base': None}
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'lookup_in_workspace' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'cargo_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'clean_build' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'cmake_target' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.542s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.542s] DEBUG:colcon.colcon_core.verb:Building package 'deepmind_bot_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/deepmind_bot_description', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/deepmind_bot_description', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_description', 'symlink_install': False, 'test_result_base': None}
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'lookup_in_workspace' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'cargo_args' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'clean_build' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.543s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.544s] DEBUG:colcon.colcon_core.verb:Building package 'deepmind_bot_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/deepmind_bot_gazebo', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/deepmind_bot_gazebo', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_gazebo', 'symlink_install': False, 'test_result_base': None}
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'lookup_in_workspace' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'cargo_args' from command line to 'None'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'clean_build' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'cmake_args' from command line to 'None'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'cmake_target' from command line to 'None'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.544s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.545s] DEBUG:colcon.colcon_core.verb:Building package 'deepmind_bot_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/deepmind_bot_navigation', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/deepmind_bot_navigation', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'lookup_in_workspace' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'cargo_args' from command line to 'None'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'clean_build' from command line to 'False'
+[0.545s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'cmake_args' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'cmake_target' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'cmake_clean_cache' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'cmake_clean_first' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'cmake_force_configure' from command line to 'False'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'ament_cmake_args' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'catkin_cmake_args' from command line to 'None'
+[0.546s] Level 5:colcon.colcon_core.verb:set package 'deepmind_bot_trajectory_sender' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.546s] DEBUG:colcon.colcon_core.verb:Building package 'deepmind_bot_trajectory_sender' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user/ros2_ws/build/deepmind_bot_trajectory_sender', 'cargo_args': None, 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'clean_build': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender', 'lookup_in_workspace': False, 'merge_install': False, 'path': '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_trajectory_sender', 'symlink_install': False, 'test_result_base': None}
+[0.546s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.549s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.550s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/custom_msgs' with build type 'ament_cmake'
+[0.550s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/custom_msgs'
+[0.554s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.554s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.554s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.557s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/user/ros2_ws/install/advanced_perception' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.566s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_description' with build type 'ament_cmake'
+[0.566s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_description'
+[0.567s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.567s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.576s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_gazebo' with build type 'ament_cmake'
+[0.576s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_gazebo'
+[0.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.577s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.587s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_navigation' with build type 'ament_cmake'
+[0.587s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_navigation'
+[0.587s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.587s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.598s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_trajectory_sender' with build type 'ament_cmake'
+[0.598s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/user/ros2_ws/src/deepmind_bot/deepmind_bot_trajectory_sender'
+[0.599s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.599s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_msgs -- -j8 -l8
+[0.623s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/deepmind_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/deepmind_bot_description -- -j8 -l8
+[0.628s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/deepmind_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/deepmind_bot_gazebo -- -j8 -l8
+[0.652s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/deepmind_bot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/deepmind_bot_navigation -- -j8 -l8
+[0.730s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/deepmind_bot_trajectory_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/deepmind_bot_trajectory_sender -- -j8 -l8
+[0.745s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/deepmind_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/deepmind_bot_description -- -j8 -l8
+[0.752s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/deepmind_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/deepmind_bot_gazebo -- -j8 -l8
+[0.832s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/deepmind_bot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/deepmind_bot_navigation -- -j8 -l8
+[0.859s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/deepmind_bot_trajectory_sender' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/deepmind_bot_trajectory_sender -- -j8 -l8
+[0.930s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/deepmind_bot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/deepmind_bot_description
+[0.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/deepmind_bot_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/deepmind_bot_gazebo
+[0.956s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deepmind_bot_description)
+[0.961s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description' for CMake module files
+[0.962s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/deepmind_bot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/deepmind_bot_description
+[0.964s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description' for CMake config files
+[0.970s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepmind_bot_description', 'cmake_prefix_path')
+[0.970s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/hook/cmake_prefix_path.ps1'
+[0.971s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/hook/cmake_prefix_path.dsv'
+[0.972s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/hook/cmake_prefix_path.sh'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description/bin'
+[0.975s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description/lib/pkgconfig/deepmind_bot_description.pc'
+[1.019s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description/lib/python3.10/site-packages'
+[1.020s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description/bin'
+[1.020s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/package.ps1'
+[1.023s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/package.dsv'
+[1.024s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/package.sh'
+[1.025s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/package.bash'
+[1.027s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/package.zsh'
+[1.028s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/deepmind_bot_description/share/colcon-core/packages/deepmind_bot_description)
+[1.042s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deepmind_bot_gazebo)
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo' for CMake module files
+[1.043s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo' for CMake config files
+[1.044s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepmind_bot_gazebo', 'cmake_prefix_path')
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/hook/cmake_prefix_path.ps1'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/hook/cmake_prefix_path.dsv'
+[1.046s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/hook/cmake_prefix_path.sh'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo/bin'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo/lib/pkgconfig/deepmind_bot_gazebo.pc'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo/lib/python3.10/site-packages'
+[1.048s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo/bin'
+[1.048s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/package.ps1'
+[1.052s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/package.dsv'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/package.sh'
+[1.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/package.bash'
+[1.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/package.zsh'
+[1.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/deepmind_bot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/deepmind_bot_navigation
+[1.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/deepmind_bot_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/deepmind_bot_gazebo
+[1.070s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/deepmind_bot_gazebo/share/colcon-core/packages/deepmind_bot_gazebo)
+[1.075s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deepmind_bot_navigation)
+[1.075s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation' for CMake module files
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/deepmind_bot_trajectory_sender': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/deepmind_bot_trajectory_sender
+[1.076s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/deepmind_bot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/deepmind_bot_navigation
+[1.077s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation' for CMake config files
+[1.077s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepmind_bot_navigation', 'cmake_prefix_path')
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/hook/cmake_prefix_path.ps1'
+[1.078s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/hook/cmake_prefix_path.dsv'
+[1.079s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/hook/cmake_prefix_path.sh'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation/bin'
+[1.079s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation/lib/pkgconfig/deepmind_bot_navigation.pc'
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation/lib/python3.10/site-packages'
+[1.080s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation/bin'
+[1.080s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.ps1'
+[1.081s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.dsv'
+[1.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.sh'
+[1.118s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.bash'
+[1.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.zsh'
+[1.120s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/deepmind_bot_navigation/share/colcon-core/packages/deepmind_bot_navigation)
+[1.140s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deepmind_bot_trajectory_sender)
+[1.141s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender' for CMake module files
+[1.143s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender' for CMake config files
+[1.143s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepmind_bot_trajectory_sender', 'cmake_prefix_path')
+[1.144s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/hook/cmake_prefix_path.ps1'
+[1.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/deepmind_bot_trajectory_sender' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/deepmind_bot_trajectory_sender
+[1.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/hook/cmake_prefix_path.dsv'
+[1.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/hook/cmake_prefix_path.sh'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/lib'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/bin'
+[1.148s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/lib/pkgconfig/deepmind_bot_trajectory_sender.pc'
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/lib/python3.10/site-packages'
+[1.149s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/bin'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.ps1'
+[1.150s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.dsv'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.sh'
+[1.151s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.bash'
+[1.152s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.zsh'
+[1.152s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/colcon-core/packages/deepmind_bot_trajectory_sender)
+[1.160s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deepmind_bot_description)
+[1.160s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description' for CMake module files
+[1.161s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description' for CMake config files
+[1.162s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepmind_bot_description', 'cmake_prefix_path')
+[1.162s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/hook/cmake_prefix_path.ps1'
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/hook/cmake_prefix_path.dsv'
+[1.163s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/hook/cmake_prefix_path.sh'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description/bin'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description/lib/pkgconfig/deepmind_bot_description.pc'
+[1.164s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description/lib/python3.10/site-packages'
+[1.165s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_description/bin'
+[1.165s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/package.ps1'
+[1.166s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/package.dsv'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/package.sh'
+[1.167s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/package.bash'
+[1.168s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_description/share/deepmind_bot_description/package.zsh'
+[1.168s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/deepmind_bot_description/share/colcon-core/packages/deepmind_bot_description)
+[1.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deepmind_bot_gazebo)
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo' for CMake module files
+[1.239s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo' for CMake config files
+[1.240s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepmind_bot_gazebo', 'cmake_prefix_path')
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/hook/cmake_prefix_path.ps1'
+[1.240s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/hook/cmake_prefix_path.dsv'
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/hook/cmake_prefix_path.sh'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo/bin'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo/lib/pkgconfig/deepmind_bot_gazebo.pc'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo/lib/python3.10/site-packages'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_gazebo/bin'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/package.ps1'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/package.dsv'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/package.sh'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/package.bash'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_gazebo/share/deepmind_bot_gazebo/package.zsh'
+[1.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/deepmind_bot_gazebo/share/colcon-core/packages/deepmind_bot_gazebo)
+[1.276s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deepmind_bot_navigation)
+[1.277s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation' for CMake module files
+[1.278s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation' for CMake config files
+[1.278s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepmind_bot_navigation', 'cmake_prefix_path')
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/hook/cmake_prefix_path.ps1'
+[1.279s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/hook/cmake_prefix_path.dsv'
+[1.280s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/hook/cmake_prefix_path.sh'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation/bin'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation/lib/pkgconfig/deepmind_bot_navigation.pc'
+[1.281s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation/lib/python3.10/site-packages'
+[1.282s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_navigation/bin'
+[1.282s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.ps1'
+[1.283s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.dsv'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.sh'
+[1.284s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.bash'
+[1.285s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_navigation/share/deepmind_bot_navigation/package.zsh'
+[1.285s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/deepmind_bot_navigation/share/colcon-core/packages/deepmind_bot_navigation)
+[1.287s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deepmind_bot_trajectory_sender)
+[1.287s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender' for CMake module files
+[1.288s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender' for CMake config files
+[1.288s] Level 1:colcon.colcon_core.shell:create_environment_hook('deepmind_bot_trajectory_sender', 'cmake_prefix_path')
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/hook/cmake_prefix_path.ps1'
+[1.289s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/hook/cmake_prefix_path.dsv'
+[1.290s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/hook/cmake_prefix_path.sh'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/lib'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/bin'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/lib/pkgconfig/deepmind_bot_trajectory_sender.pc'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/lib/python3.10/site-packages'
+[1.291s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/bin'
+[1.292s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.ps1'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.dsv'
+[1.293s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.sh'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.bash'
+[1.294s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/deepmind_bot_trajectory_sender/package.zsh'
+[1.294s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/deepmind_bot_trajectory_sender/share/colcon-core/packages/deepmind_bot_trajectory_sender)
+[2.847s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/user/ros2_ws/build/custom_msgs -- -j8 -l8
+[3.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user/ros2_ws/build/custom_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_msgs
+[3.615s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs)
+[3.615s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs' for CMake module files
+[3.616s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user/ros2_ws/build/custom_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/simulations/ros2_sims_ws/install/rclrs_tests:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_client_service:/home/simulations/ros2_sims_ws/install/sensor_msgs_py:/home/simulations/ros2_sims_ws/install/examples_rclrs_minimal_pub_sub:/home/simulations/ros2_sims_ws/install/examples_rclrs_message_demo:/home/simulations/ros2_sims_ws/install/rclrs:/home/simulations/ros2_sims_ws/install/rosidl_runtime_rs:/home/user/ros2_ws/install/advanced_perception:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/user/ros2_ws/build/custom_msgs
+[3.616s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs' for CMake config files
+[3.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'cmake_prefix_path')
+[3.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.ps1'
+[3.618s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.dsv'
+[3.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.sh'
+[3.619s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs/lib'
+[3.619s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'ld_library_path_lib')
+[3.620s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.ps1'
+[3.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.dsv'
+[3.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.sh'
+[3.621s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs/bin'
+[3.621s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs/lib/pkgconfig/custom_msgs.pc'
+[3.622s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs/lib/python3.10/site-packages'
+[3.622s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs/bin'
+[3.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/package.ps1'
+[3.623s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/package.dsv'
+[3.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/package.sh'
+[3.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/package.bash'
+[3.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/package.zsh'
+[3.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/custom_msgs/share/colcon-core/packages/custom_msgs)
+[4.245s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_msgs)
+[4.246s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs' for CMake module files
+[4.247s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs' for CMake config files
+[4.247s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'cmake_prefix_path')
+[4.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.ps1'
+[4.248s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.dsv'
+[4.249s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/cmake_prefix_path.sh'
+[4.250s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs/lib'
+[4.250s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_msgs', 'ld_library_path_lib')
+[4.250s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.ps1'
+[4.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.dsv'
+[4.252s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/hook/ld_library_path_lib.sh'
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs/bin'
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs/lib/pkgconfig/custom_msgs.pc'
+[4.253s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs/lib/python3.10/site-packages'
+[4.254s] Level 1:colcon.colcon_core.environment:checking '/home/user/ros2_ws/install/custom_msgs/bin'
+[4.254s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/package.ps1'
+[4.255s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/package.dsv'
+[4.255s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/package.sh'
+[4.256s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/package.bash'
+[4.257s] INFO:colcon.colcon_core.shell:Creating package script '/home/user/ros2_ws/install/custom_msgs/share/custom_msgs/package.zsh'
+[4.257s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user/ros2_ws/install/custom_msgs/share/colcon-core/packages/custom_msgs)
+[4.258s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[4.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[4.259s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[4.259s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[4.267s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[4.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[4.268s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[4.268s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[4.270s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[4.271s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[4.272s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.ps1'
+[4.273s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_ps1.py'
+[4.275s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.ps1'
+[4.278s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.sh'
+[4.279s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user/ros2_ws/install/_local_setup_util_sh.py'
+[4.279s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.sh'
+[4.283s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.bash'
+[4.283s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.bash'
+[4.287s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user/ros2_ws/install/local_setup.zsh'
+[4.287s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user/ros2_ws/install/setup.zsh'

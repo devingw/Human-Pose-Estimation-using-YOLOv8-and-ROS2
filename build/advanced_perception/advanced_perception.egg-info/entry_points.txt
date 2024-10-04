@@ -1,0 +1,3 @@
+[console_scripts]
+pose_estimation_node = advanced_perception.pose_estimation:main
+

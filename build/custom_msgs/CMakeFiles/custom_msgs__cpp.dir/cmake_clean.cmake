@@ -1,0 +1,40 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/custom_msgs__cpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/detected_objects__builder.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/detected_objects__struct.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/detected_objects__traits.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/detected_surfaces__builder.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/detected_surfaces__struct.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/detected_surfaces__traits.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/inference_result__builder.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/inference_result__struct.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/inference_result__traits.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/pose_keypoint__builder.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/pose_keypoint__struct.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/pose_keypoint__traits.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/pose_result__builder.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/pose_result__struct.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/pose_result__traits.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/segmentation_result__builder.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/segmentation_result__struct.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/segmentation_result__traits.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/yolov8_inference__builder.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/yolov8_inference__struct.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/yolov8_inference__traits.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/yolov8_segmentation__builder.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/yolov8_segmentation__struct.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detail/yolov8_segmentation__traits.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detected_objects.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/detected_surfaces.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/inference_result.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/pose_keypoint.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/pose_result.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/segmentation_result.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/yolov8_inference.hpp"
+  "rosidl_generator_cpp/custom_msgs/msg/yolov8_segmentation.hpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang )
+  include(CMakeFiles/custom_msgs__cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()
