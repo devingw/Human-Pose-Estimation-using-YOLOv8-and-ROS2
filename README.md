@@ -24,7 +24,7 @@ To launch the robot in a simulation environment run the following:
 cd src/deepmind_bot/scripts
 ./start_deepmindbot_perception1.sh
 ```
-For the object detection aspect of the project, YOLOv8 ([see link](#useful-links)) has been utilised.
+For the real-time object detection aspect of the project, YOLOv8 ([see link](#useful-links)) has been utilised.
 
 The `src/advanced_perception` package handles the Pose Estimation.
 
