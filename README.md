@@ -4,7 +4,9 @@
 
 This code can identify human limbs and calculate the angles between them, for instance, the angle created when you bend your elbow.
 
+This GIF visualises the work done by this repository:
 
+![Visualisation](./images/yolo_pose_estimation_image.gif)
 
 
 ## Useful Links
