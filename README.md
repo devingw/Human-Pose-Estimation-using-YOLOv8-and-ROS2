@@ -28,7 +28,7 @@ For the object detection aspect of the project, YOLOv8 ([see link](#useful-links
 
 The `src/advanced_perception` package handles the Pose Estimation.
 
-The specific YOLOv8 model employed in this project is yolov8n-pose.pt and is stored in `src/advanced_perception/data`.
+The specific YOLOv8 model employed in this project is `yolov8n-pose.pt` and is stored in `src/advanced_perception/data`.
 
 ### Launching and Testing 
 
